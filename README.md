@@ -2,125 +2,96 @@
 
 # 🦊 Ofox AI Community
 
-**Welcome to the official community hub for Ofox AI**
+**The official hub for builders, hackers, and AI enthusiasts.**
 
-[![Website](https://img.shields.io/badge/Website-ofox.ai-blue?style=for-the-badge)](https://ofox.ai)
-[![Discussions](https://img.shields.io/badge/Discussions-Join%20Us-green?style=for-the-badge&logo=github)](https://github.com/ofoxai/community/discussions)
-[![Twitter](https://img.shields.io/badge/Twitter-@ofox__ai-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ofox_ai)
+[![Hacker Rules](https://img.shields.io/badge/📜_Hacker_Rules-Read_First-black?style=for-the-badge)](./HACKER_RULES.md)
+[![Discussions](https://img.shields.io/badge/💬_Discussions-Join-green?style=for-the-badge)](https://github.com/ofoxai/community/discussions)
+[![Docs](https://img.shields.io/badge/📚_Docs-Read-blue?style=for-the-badge)](https://docs.ofox.ai)
 
-**🌐 Languages**: [English](#-welcome) | [中文](#-欢迎) | [日本語](#-ようこそ)
+**🌐** [English](#english) | [中文](#中文) | [日本語](#日本語)
 
 </div>
 
 ---
 
-## 👋 Welcome!
+# English
 
-This is the central hub for the Ofox AI community. Here you can:
+## The Rules
 
-- 💬 **Discuss** ideas, features, and best practices
-- 🐛 **Report** bugs and issues
-- 💡 **Request** new features
-- 📢 **Stay updated** on announcements
-- 🤝 **Connect** with other developers
+**Read the [Hacker Rules](./HACKER_RULES.md) first.** It's how we build.
 
----
+## Get Involved
 
-## 🚀 What is Ofox AI?
+| Action | Where |
+|--------|-------|
+| 💬 Ask & Discuss | [Discussions](https://github.com/ofoxai/community/discussions) |
+| 🐛 Report Bugs | [Issues](https://github.com/ofoxai/community/issues/new?template=bug_report.md) |
+| 💡 Request Features | [Issues](https://github.com/ofoxai/community/issues/new?template=feature_request.md) |
+| 🔒 Security Issues | [security@ofox.ai](mailto:security@ofox.ai) |
 
-Ofox AI is a **unified LLM Gateway** that provides:
+## Quick Start
 
-- **Single API** — Access OpenAI, Anthropic, Google, and more
-- **Cost Optimization** — Intelligent routing for best price-performance
-- **High Performance** — Low latency with global edge deployment
-
-> **One API, Better prices, better speed, no subscriptions.**
-
----
-
-## 📚 Quick Links
-
-| Resource | Link |
-|----------|------|
-| 🌐 Website | [ofox.ai](https://ofox.ai) |
-| 📖 Documentation | [docs.ofox.ai](https://docs.ofox.ai) |
-| 📊 Status | [status.ofox.ai](https://status.ofox.ai) |
-| 🐦 Twitter | [@ofox_ai](https://twitter.com/ofox_ai) |
-| 📧 Email | [hi@ofox.ai](mailto:hi@ofox.ai) |
+```bash
+export OPENAI_BASE_URL=https://api.ofox.ai/v1
+# That's it. Your existing code works.
+```
 
 ---
 
-## 💬 Discussions
+# 中文
 
-Join our [GitHub Discussions](https://github.com/ofoxai/community/discussions):
+## 规则
 
-| Category | Purpose |
-|----------|---------|
-| 📢 Announcements | Official updates and news |
-| 💡 Ideas | Feature requests and suggestions |
-| 🙋 Q&A | Questions and answers |
-| 🎉 Show & Tell | Share what you built |
-| 💬 General | Casual conversations |
+**先阅读 [Hacker Rules](./HACKER_RULES.md)**，这是我们的行事准则。
 
----
+## 参与方式
 
-## 📍 Location
+| 行动 | 链接 |
+|------|------|
+| 💬 提问与讨论 | [Discussions](https://github.com/ofoxai/community/discussions) |
+| 🐛 报告 Bug | [Issues](https://github.com/ofoxai/community/issues/new?template=bug_report.md) |
+| 💡 功能建议 | [Issues](https://github.com/ofoxai/community/issues/new?template=feature_request.md) |
+| 🔒 安全问题 | [security@ofox.ai](mailto:security@ofox.ai) |
 
-**Singapore** 🇸🇬 — Serving developers worldwide
+## 快速开始
 
----
-
-# 👋 欢迎！
-
-欢迎来到 Ofox AI 官方社区！
-
-## 🚀 什么是 Ofox AI？
-
-Ofox AI 是一个**统一的 LLM 网关**，提供：
-
-- **单一 API** — 通过一个接口访问 OpenAI、Anthropic、Google 等
-- **成本优化** — 智能路由，最佳性价比
-- **高性能** — 全球边缘部署，低延迟
-
-> **一个 API，更优价格，更快速度，无需订阅。**
-
-## 💬 参与讨论
-
-- 📢 **公告** — 官方更新和新闻
-- 💡 **想法** — 功能请求和建议
-- 🙋 **问答** — 问题和解答
-- 🎉 **展示** — 分享您的作品
+```bash
+export OPENAI_BASE_URL=https://api.ofox.ai/v1
+# 搞定。你的代码无需修改。
+```
 
 ---
 
-# 👋 ようこそ！
+# 日本語
 
-Ofox AI 公式コミュニティへようこそ！
+## ルール
 
-## 🚀 Ofox AI とは？
+**まず [Hacker Rules](./HACKER_RULES.md) を読んでください。** 私たちの行動指針です。
 
-Ofox AI は**統合 LLM ゲートウェイ**です：
+## 参加方法
 
-- **単一 API** — OpenAI、Anthropic、Google などに一つのインターフェースでアクセス
-- **コスト最適化** — インテリジェントルーティングで最高のコストパフォーマンス
-- **高性能** — グローバルエッジデプロイメント、低レイテンシー
+| アクション | リンク |
+|-----------|--------|
+| 💬 質問・議論 | [Discussions](https://github.com/ofoxai/community/discussions) |
+| 🐛 バグ報告 | [Issues](https://github.com/ofoxai/community/issues/new?template=bug_report.md) |
+| 💡 機能リクエスト | [Issues](https://github.com/ofoxai/community/issues/new?template=feature_request.md) |
+| 🔒 セキュリティ | [security@ofox.ai](mailto:security@ofox.ai) |
 
-> **One API, Better prices, better speed, no subscriptions.**
+## クイックスタート
 
-## 💬 ディスカッションに参加
-
-- 📢 **お知らせ** — 公式アップデートとニュース
-- 💡 **アイデア** — 機能リクエストと提案
-- 🙋 **Q&A** — 質問と回答
-- 🎉 **ショー＆テル** — 作品を共有
+```bash
+export OPENAI_BASE_URL=https://api.ofox.ai/v1
+# 完了。既存のコードがそのまま動きます。
+```
 
 ---
 
 <div align="center">
 
-**[Get Started](https://ofox.ai)** · **[Documentation](https://docs.ofox.ai)** · **[Status](https://status.ofox.ai)**
+[![Website](https://img.shields.io/badge/ofox.ai-000?style=flat-square)](https://ofox.ai)
+[![Twitter](https://img.shields.io/badge/@ofox__ai-000?style=flat-square&logo=x)](https://twitter.com/ofox_ai)
+[![Email](https://img.shields.io/badge/hi@ofox.ai-000?style=flat-square)](mailto:hi@ofox.ai)
 
-Made with ❤️ by the Ofox AI Team
+**Singapore 🇸🇬**
 
 </div>
-
