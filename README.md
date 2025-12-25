@@ -8,6 +8,8 @@
 [![Discussions](https://img.shields.io/badge/Discussions-Join%20Us-green?style=for-the-badge&logo=github)](https://github.com/ofoxai/community/discussions)
 [![Twitter](https://img.shields.io/badge/Twitter-@ofox__ai-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ofox_ai)
 
+**🌐 Languages**: [English](#-welcome) | [中文](#-欢迎) | [日本語](#-ようこそ)
+
 </div>
 
 ---
@@ -31,7 +33,6 @@ Ofox AI is a **unified LLM Gateway** that provides:
 - **Single API** — Access OpenAI, Anthropic, Google, and more
 - **Cost Optimization** — Intelligent routing for best price-performance
 - **High Performance** — Low latency with global edge deployment
-- **Full Observability** — Real-time usage analytics
 
 > **One API, Better prices, better speed, no subscriptions.**
 
@@ -51,48 +52,73 @@ Ofox AI is a **unified LLM Gateway** that provides:
 
 ## 💬 Discussions
 
-Join our [GitHub Discussions](https://github.com/ofoxai/community/discussions) to:
+Join our [GitHub Discussions](https://github.com/ofoxai/community/discussions):
 
 | Category | Purpose |
 |----------|---------|
 | 📢 Announcements | Official updates and news |
 | 💡 Ideas | Feature requests and suggestions |
 | 🙋 Q&A | Questions and answers |
-| 🎉 Show & Tell | Share what you built with Ofox AI |
+| 🎉 Show & Tell | Share what you built |
 | 💬 General | Casual conversations |
 
 ---
 
-## 🐛 Bug Reports
+## 📍 Location
 
-Found a bug? Please [open an issue](https://github.com/ofoxai/community/issues/new?template=bug_report.md) with:
-
-- Clear description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Environment details
+**Singapore** 🇸🇬 — Serving developers worldwide
 
 ---
 
-## 💡 Feature Requests
+# 👋 欢迎！
 
-Have an idea? [Submit a feature request](https://github.com/ofoxai/community/issues/new?template=feature_request.md)!
+欢迎来到 Ofox AI 官方社区！
 
-We love hearing from our community about how we can improve.
+## 🚀 什么是 Ofox AI？
+
+Ofox AI 是一个**统一的 LLM 网关**，提供：
+
+- **单一 API** — 通过一个接口访问 OpenAI、Anthropic、Google 等
+- **成本优化** — 智能路由，最佳性价比
+- **高性能** — 全球边缘部署，低延迟
+
+> **一个 API，更优价格，更快速度，无需订阅。**
+
+## 💬 参与讨论
+
+- 📢 **公告** — 官方更新和新闻
+- 💡 **想法** — 功能请求和建议
+- 🙋 **问答** — 问题和解答
+- 🎉 **展示** — 分享您的作品
 
 ---
 
-## 📜 Code of Conduct
+# 👋 ようこそ！
 
-We are committed to providing a welcoming and inclusive community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+Ofox AI 公式コミュニティへようこそ！
+
+## 🚀 Ofox AI とは？
+
+Ofox AI は**統合 LLM ゲートウェイ**です：
+
+- **単一 API** — OpenAI、Anthropic、Google などに一つのインターフェースでアクセス
+- **コスト最適化** — インテリジェントルーティングで最高のコストパフォーマンス
+- **高性能** — グローバルエッジデプロイメント、低レイテンシー
+
+> **One API, Better prices, better speed, no subscriptions.**
+
+## 💬 ディスカッションに参加
+
+- 📢 **お知らせ** — 公式アップデートとニュース
+- 💡 **アイデア** — 機能リクエストと提案
+- 🙋 **Q&A** — 質問と回答
+- 🎉 **ショー＆テル** — 作品を共有
 
 ---
-
-## 📍 About Us
-
-**Ofox AI** — Based in Singapore 🇸🇬, serving developers worldwide.
 
 <div align="center">
+
+**[Get Started](https://ofox.ai)** · **[Documentation](https://docs.ofox.ai)** · **[Status](https://status.ofox.ai)**
 
 Made with ❤️ by the Ofox AI Team
 
