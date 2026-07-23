@@ -1,0 +1,27 @@
+name: Notify Lark on issue activity
+on:
+  issues:
+    types: [opened, reopened]
+  issue_comment:
+    types: [created]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Lark card
+        env:
+          WEBHOOK: ${{ secrets.LARK_WEBHOOK_URL }}
+          TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          SENDER: ${{ github.event.sender.login }}
+          KIND: ${{ github.event_name == 'issue_comment' && '💬 新评论' || '🆕 新 Issue' }}
+          SNIPPET: ${{ github.event_name == 'issue_comment' && github.event.comment.body || github.event.issue.body }}
+        run: |
+          payload=$(jq -n \
+            --arg t "Github Community · $KIND #${{ github.event.issue.number }} $TITLE" \
+            --arg by "$SENDER" \
+            --arg u "$ISSUE_URL" \
+            --arg body "$(printf '%s' "$SNIPPET" | head -c 300)" \
+            '{msg_type:"interactive",card:{header:{title:{tag:"plain_text",content:$t},template:"orange"},elements:[{tag:"div",text:{tag:"lark_md",content:("**"+$by+"**:\n"+$body)}},{tag:"action",actions:[{tag:"button",text:{tag:"plain_text",content:"打开 Issue"},url:$u,type:"primary"}]}]}}')
+          curl -s "$WEBHOOK" -H 'Content-Type: application/json' -d "$payload"
