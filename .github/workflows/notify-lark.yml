@@ -19,7 +19,7 @@ jobs:
           SNIPPET: ${{ github.event_name == 'issue_comment' && github.event.comment.body || github.event.issue.body }}
         run: |
           payload=$(jq -n \
-            --arg t "$KIND · #${{ github.event.issue.number }} $TITLE" \
+            --arg t "Github Community · $KIND #${{ github.event.issue.number }} $TITLE" \
             --arg by "$SENDER" \
             --arg u "$ISSUE_URL" \
             --arg body "$(printf '%s' "$SNIPPET" | head -c 300)" \
